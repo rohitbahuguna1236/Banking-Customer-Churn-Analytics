@@ -11,7 +11,7 @@ st.title("🏦 Banking Customer Churn Analytics")
 st.write("Data Analytics Dashboard using Python and Streamlit")
 
 # Load Dataset
-df = pd.read_csv("Dataset/Bank Customer Churn Prediction.csv")
+df = pd.read_csv("Bank Customer Churn Prediction.csv")
 
 # KPI
 total_customers = len(df)
